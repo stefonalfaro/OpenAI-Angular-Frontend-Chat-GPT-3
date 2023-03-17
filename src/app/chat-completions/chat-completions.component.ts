@@ -29,13 +29,12 @@ export class ChatCompletionsComponent implements OnInit {
   {
     this.sharedService.selectedModelId$.subscribe((id) => {
       this.selectedModelId = id;
-      // Do something with the selectedModelId, e.g., make an API call or update the UI
       this.fetchChatCompletion(id);
     });
   }
 
   ngOnInit(): void {
-    //this.fetchChatCompletion();
+
   }
 
   fetchChatCompletion(id:any): void {

@@ -1,0 +1,10 @@
+<div class="form-group">
+    <label for="message">Enter your message:</label>
+    <textarea class="form-control" id="message" rows="3" [(ngModel)]="message" ></textarea>
+</div>
+<button class="btn btn-primary" (click)="submitMessage()">Submit</button>
+  
+<div *ngIf="chatResponse">
+    <h3>Assistant's Response</h3>
+    <p>{{ chatResponse.choices[0].message.content }}</p>
+</div>  

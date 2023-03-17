@@ -1,6 +1,8 @@
-<nav>
-    <a routerLink="/models" routerLinkActive="active">Models</a> |
-    <a routerLink="/chat" routerLinkActive="active">Chat Completions <span *ngIf="selectedModelId">({{ selectedModelId }})</span></a>
-</nav>
+<div class="container-fluid">
+    <nav>
+        <a routerLink="/models" routerLinkActive="active">Models</a> |
+        <a routerLink="/custom-chat" routerLinkActive="active">Custom Chat <span *ngIf="selectedModelId">({{ selectedModelId }})</span></a>
+    </nav>
 
-<router-outlet></router-outlet>  
+    <router-outlet></router-outlet>  
+</div>
