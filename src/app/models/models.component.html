@@ -1,0 +1,24 @@
+<div class="table-responsive">
+    <table *ngIf="models.length > 0" class="table table-striped table-bordered table-hover">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Object</th>
+          <th>Created</th>
+          <th>Owned By</th>
+          <th>Root</th>
+          <th>Parent</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let model of models" (click)="onRowClicked(model.id)">
+          <td>{{ model.id }}</td>
+          <td>{{ model.object }}</td>
+          <td>{{ model.created }}</td>
+          <td>{{ model.owned_by }}</td>
+          <td>{{ model.root }}</td>
+          <td>{{ model.parent }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

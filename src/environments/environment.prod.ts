@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  OpenAIAPIKey: "",
+  OpenAIAPIUrl: "https://api.openai.com/v1"
 };
