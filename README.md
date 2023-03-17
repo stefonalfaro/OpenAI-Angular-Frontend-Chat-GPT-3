@@ -1,27 +1,8 @@
 # OpenaiFrontend
+This is mean for local use only. Your API key will go in the environment.ts and thus this cannot be used on a public facing site. This was developed as a personal tool for me. It is not hard to turn this into a .NET API for production use with a proper Front-end and Back-end.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+#/models
+![image](https://user-images.githubusercontent.com/45152948/225808708-b32a785b-7fbf-4fc1-b1b5-75c70bb32997.png)
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#/chat
+![image](https://user-images.githubusercontent.com/45152948/225808765-6c3dae50-a381-4fcc-935f-1380fb481720.png)
